@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: jm-customer
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+      password: confignimda
+      username: user
